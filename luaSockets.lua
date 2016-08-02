@@ -11,15 +11,15 @@ sk = net.createConnection(net.TCP,0)
 --When socket is received print the received information 
 -- function in the command is callback fucntion
 sk:on("receive",function(sck,c)
-					print(c)
-					end -- end of function
+			print(c)
+		end -- end of function
 	  ) -- end of sk:onReceive
 	  
 --when connection is established send the Message Hello
 
 sk:on("connection",function(sck,c)
-						sk:send("Helloooo....")
-					end -- end of function
+			sk:send("Helloooo....")
+		end -- end of function
 	 ) -- end of sk:onConnection
 
 
