@@ -24,3 +24,5 @@ then use
 <i> kill 1745 </i> [replace 1745 with your number]
 
 
+please visit http://anilarduino.blogspot.in/2016/08/sockets-in-nodemcu-with-lua.html for Explanation
+
